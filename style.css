@@ -1,0 +1,350 @@
+header{
+    color:rgb(63, 63, 202);
+    background-color: white;
+    margin:0%;
+}
+.background{
+    background-image: url("https://res.cloudinary.com/dywjasgpb/image/upload/v1720000606/background_3_ftlsha.jpg");
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    height:500px;
+    margin:0%;
+}
+.background .main {
+    place-content: center;
+    justify-content: center;
+} 
+.main h1{ 
+    color:rgb(47, 50, 50);  
+    text-align: center;
+    place-content: center;
+    justify-content: center;
+    width:min-content;
+    font-size: 70px;
+    margin: 0%;
+}
+.main a{
+    width:125px;
+    height:20px;
+    border-radius: 10px;
+    padding:5px;
+    margin-left:100px;
+    background-color:blue;
+    font-size:smaller;
+    color:white;
+    place-content: center;
+    border-color:transparent;
+}
+.main a:hover{
+    background-color: rgb(77, 77, 238);
+}
+.background img{
+    width:250px;
+    height: 250px;
+    margin-left: 50px;
+    border-radius: 50px;
+}
+.image1{
+    display:grid;
+}
+.image1 img{
+    height: 150px;
+    margin:50px;
+}
+.image1 .image2{
+    width:150px;
+    height: 150px;
+    border-radius: 100px;
+}
+.book{
+    display:flex;
+    justify-content: space-around;
+    place-items: center;
+    margin: 50px;
+}
+.booking{
+    background-image: url("https://res.cloudinary.com/dywjasgpb/image/upload/v1720088690/background_4_vntxle.jpg");
+    width:700px;
+    height: 209px;
+    border-radius: 20px;
+    color:white;
+    display: flex;
+    padding:10px;
+    justify-content: space-around;
+}
+.book button{
+    border:transparent;
+    border-radius: 10px;
+    padding:5px;
+}
+.book img{
+    width:300px;
+    border-radius:50px;
+} 
+.rate{
+    background-color: rgb(97, 97, 240);
+    width:fit-content;
+    margin:50px 150px;
+    height:150px;
+    padding:10px;
+    border:transparent;
+    border-radius: 20px;
+    place-content: center;
+    place-items: center;
+    display: flex;
+}
+.rate  h2{
+    text-align: center;
+    color:white;
+    padding:65px;
+    justify-content: space-around;
+    place-items: center;
+    place-content: center;
+    display: inline;
+}
+.rate p{
+    color: white;
+    font-size:xx-small;
+    display: inline;
+    margin:70px;
+} 
+.missioning{
+    display:flex;
+    justify-content: space-between;
+    margin:50px;
+}
+.missioning img{
+    width:400px;
+    height: 250px;
+    border-radius: 20px;
+}
+.mission{
+    width:300px;
+    place-content: center;
+}
+.mission h2{
+    color:rgb(63, 63, 202);
+}
+.mission p{
+    color:black;
+}
+.visioning{
+    display:flex;
+    justify-content: space-between;
+    margin: 50px;
+}
+.vision{
+    width:300px;
+    place-content: center;
+}
+.vision h2{
+    color:rgb(63, 63, 202);
+}
+.vision p{
+    color:black;
+}
+.visioning img{
+    width:400px;
+    height: 250px;
+    border-radius: 20px;
+}
+.about{
+    margin:50px;
+    display:flex;
+    place-content: center;
+    justify-content: space-around;
+}
+.emoji{
+    background-color: white;
+    border:transparent;
+    border-radius:10px;
+    width:150px;
+    height:200px;
+    place-items: center;
+}
+.emoji img{
+    width:100px;
+    margin-top: 20px;
+    margin-left: 20px;
+} 
+.emoji p{
+    color:black;
+    font-weight: bolder;
+    margin-left: 30px;
+}
+.gallary{
+    text-align: center;
+    color:rgb(63, 63, 202);
+}
+.gallary .img1 .img2{
+    display:flex;
+}
+.gallary img{
+    width:300px;
+    height: 200px;
+}
+.info{
+    place-content: center;
+    margin:80px 210px;
+    display: flex;
+}
+.info div{
+    background-color: rgba(234, 219, 248, 0.25);
+    border-radius: 20px;
+    color:black;
+    margin:10px;
+    padding:20px;
+}
+.info img{
+    margin:10px;
+    width:150px;
+    height: 200px;
+    border-radius: 20px;
+}
+.button button{
+    background-color: blue;
+    color: white;
+    border:transparent;
+    border-radius:5px;
+    text-align-last: right;
+}
+.button button:hover{
+    background-color: rgb(77, 77, 238);
+}
+.sponsors{
+    background-image: url("https://res.cloudinary.com/dywjasgpb/image/upload/v1719993158/background_1_xjnaxo.jpg");
+    color: white;
+    display: grid;
+    text-align: center;
+    margin:0%;
+}
+.sponsors p{
+    text-align: center;
+    margin:0px 240px;
+}
+.sponsors .names {
+    padding:20px;
+    display:flex;
+    justify-content: space-around;
+}
+.names svg{
+    margin:5px;
+    color:white;
+}
+.names .icons{
+    display:flex;
+    align-items: center;
+}
+.club h2{
+    text-align: center;
+    color:rgb(63, 63, 202);
+}
+.club .owner{
+    display:flex;
+    place-content:center;
+}
+.owner .owners{
+    margin:50px
+}
+.owners img{
+    margin:20px;
+    width:150px;
+    height:200px;
+    border-radius: 20px;
+}
+.owners h4{
+    margin:0%;
+    text-align: center;
+}
+.owners p{
+    margin:0%;
+    text-align: center;
+}
+.subscribe{
+    color:white;
+    text-align: center;
+    display: grid;
+    padding:20px;
+    place-items: center;
+    background-image: url("https://res.cloudinary.com/dywjasgpb/image/upload/v1719995723/background_2_gkrnsb.avif");
+}
+.subscribe h2{
+    margin:0%;
+}
+.input{
+    margin:30px;
+    background-color:rgb(53, 51, 51);
+    height:125px;
+    width:400px;
+    display: grid;
+    place-items: center;
+}
+.subscribe button{
+    background-color: white;
+    color:black;
+    border:transparent;
+    border-radius: 10px;
+    padding:5px;
+}
+.subscribe button:hover{
+    background-color: rgb(125, 113, 113);
+}
+#username {
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid #646060; 
+    outline: none; 
+    padding: 5px; 
+    font-size: 16px; 
+    color: white;
+    width: 300px; 
+}
+::placeholder {
+    color:#646060; 
+    font-style:normal; 
+    text-align: center;
+    font-size: xx-small;
+}
+.last{
+    height: 200px;
+    text-align: center;
+    display: grid;
+    place-content: center;
+}
+.last p {
+    background-color:white;
+    color:black;
+    margin:0%;
+}
+.last h1{
+    color:rgb(63, 63, 202);
+    font-size: 70px;
+    margin:0%;
+}
+nav{
+    width:100%;
+    height:100px;
+    background-color: white;
+    color: black;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.menu a{
+    text-decoration: none;
+    color:black;
+    padding: 10px 20px; 
+    border-radius: 10px;
+}
+.menu a:hover{
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.597);
+}
+.fa-brands{
+    text-decoration: none;
+    color:rgb(63, 63, 202);
+    margin: 10px 20px;
+}
+.fa-brands:hover{
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.597);
+}
